@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Time Sensei</title>
+<style>
+  :root {
+    --bg: #100505;
+    --panel: #1a0a0a;
+    --line: #2a1410;
+    --ink: #fff0e8;
+    --ink-2: #c89880;
+    --ink-3: #9a6b55;
+    --accent: #f97316;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink-2);
+    font-family: var(--sans);
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 3.5rem 1.25rem 5rem; }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 0.75rem;
+  }
+  h1 {
+    font-family: var(--mono);
+    font-weight: 400;
+    font-size: clamp(1.6rem, 5vw, 2.2rem);
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0 0 0.4rem;
+  }
+  .updated { font-family: var(--mono); font-size: 0.8rem; color: var(--ink-3); margin: 0 0 2.5rem; }
+  h2 {
+    font-family: var(--mono);
+    font-weight: 400;
+    font-size: 0.82rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 2.75rem 0 0.9rem;
+  }
+  h3 { font-size: 1.02rem; color: var(--ink); margin: 1.75rem 0 0.4rem; font-weight: 600; }
+  p, li { margin: 0 0 0.9rem; }
+  ul { padding-left: 1.2rem; }
+  strong { color: var(--ink); }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 1.1rem 1.25rem; }
+  .card p:last-child, .card ul:last-child, .card li:last-child { margin-bottom: 0; }
+  .tw { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 0.7rem 0.9rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); font-weight: 400; }
+  td:first-child { color: var(--ink); }
+  tr:last-child td { border-bottom: 0; }
+  footer { margin-top: 3.5rem; font-size: 0.85rem; color: var(--ink-3); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">Time Sensei</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 11 August 2026</p>
+
+  <p>Time Sensei is a timing game. This policy describes exactly what the app
+  collects, why, and who else can see it. It is written against what the app
+  actually does — every item below corresponds to real code and a real database
+  table.</p>
+
+  <p>Contact: <a href="mailto:kmertcansdev@gmail.com">kmertcansdev@gmail.com</a></p>
+
+  <div class="card">
+    <h2 style="margin-top:0">The short version</h2>
+    <ul>
+      <li>You can play without creating an account or giving us your name or email.</li>
+      <li>We collect your scores, so your history and rankings work.</li>
+      <li>We collect crash reports, so the app can be fixed when it breaks.</li>
+      <li>There are <strong>no ads</strong>, <strong>no tracking</strong> across
+      other apps or websites, and your data is never sold or given to data
+      brokers or advertisers.</li>
+    </ul>
+  </div>
+
+  <h2>What the app collects</h2>
+
+  <h3>An anonymous account</h3>
+  <p>The first time you open Time Sensei it creates an anonymous account
+  automatically. This is a random identifier — not your name, email, phone
+  number, or Apple ID, unless you choose to sign in. Stored with it: a randomly
+  generated display name, the creation date, and your chosen app language.</p>
+  <p><strong>Why:</strong> so your scores belong to something, and so your
+  progress can survive a reinstall if you later sign in.</p>
+
+  <h3>Your scores</h3>
+  <p>Every completed round records the game mode, the score, and how far off the
+  target you were, with a timestamp. Survival runs additionally record how many
+  rounds you survived and your average error.</p>
+  <p><strong>Why:</strong> rankings and your own performance history.</p>
+
+  <h3>Crash and error reports</h3>
+  <p>When something goes wrong, the app sends a diagnostic report containing the
+  error, a stack trace, and basic technical context such as your device model and
+  operating system version. These are processed by Sentry.</p>
+  <p><strong>Why:</strong> so faults get found and fixed. Crash reports are not
+  used to build a profile of you.</p>
+
+  <h3>Notification token</h3>
+  <p>If you turn on notifications, iOS issues a token that lets us send you a
+  push message. It identifies the installation, not you. If notifications are
+  off, no token is stored.</p>
+
+  <h3>If you choose to sign in with Apple</h3>
+  <p>Signing in is optional and exists only so your progress survives changing or
+  resetting your device. If you use it, Apple sends us an account identifier and,
+  depending on the choice you make in Apple's own dialog, either your email
+  address or a private relay address. You can play the whole game without ever
+  doing this.</p>
+
+  <h3>Referrals</h3>
+  <p>If you invite a friend and they accept, we store the link between the two
+  accounts so both sides receive the reward.</p>
+
+  <h2>What stays only on your device</h2>
+  <p>The following never leaves your phone. It lives in the app's local storage
+  and is deleted when you delete the app:</p>
+  <ul>
+    <li>Your rank and streak progress</li>
+    <li>Which modes you have unlocked and how many rounds you have played in each</li>
+    <li>Your best timing error per mode</li>
+    <li>Achievements</li>
+    <li>Daily quests</li>
+    <li>Time IQ results and history</li>
+    <li>Theme and sound preferences</li>
+  </ul>
+
+  <h2>Who processes your data</h2>
+  <div class="tw">
+    <table>
+      <thead>
+        <tr><th>Service</th><th>What it handles</th><th>Where</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Supabase</td><td>Account, scores, referrals, notification token</td><td>Cloud database</td></tr>
+        <tr><td>Sentry</td><td>Crash and error reports</td><td>Cloud, EU region</td></tr>
+        <tr><td>Apple</td><td>Sign in with Apple, push delivery, App Store analytics</td><td>Apple's own services</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Each is used strictly to operate the app. None is given your data for their
+  own advertising or profiling.</p>
+
+  <h2>Tracking and advertising</h2>
+  <p>Time Sensei contains <strong>no advertising</strong> and <strong>no
+  third-party tracking or analytics SDKs</strong>. Nothing in the app tracks you
+  across other companies' apps or websites, and the app does not ask permission
+  to do so, because it does not do it.</p>
+
+  <h2>How long data is kept</h2>
+  <p>Scores and account records are kept while your account exists. Crash
+  reports are kept for a limited retention window by Sentry and then deleted
+  automatically.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li><strong>Play anonymously.</strong> Do not sign in, and nothing here is
+    connected to a real identity.</li>
+    <li><strong>Turn off notifications</strong> in the app's settings, or in iOS
+    Settings, and no token is stored.</li>
+    <li><strong>Delete everything.</strong> Write to the address above from the
+    email associated with your account, or include your in-game display name,
+    and we will delete your account and its scores. Deleting the app removes all
+    on-device data immediately.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Time Sensei is not directed at children under 13 and does not knowingly
+  collect data from them. Nothing in the app asks a player their age, because
+  the app has no reason to know it.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the date at the top changes with it. Material
+  changes will be noted in the app's release notes rather than made quietly.</p>
+
+  <hr />
+  <footer>
+    <p><a href="./">Time Sensei</a> · <a href="support.html">Support</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
